@@ -114,10 +114,13 @@ header {
 	margin-top: 50px;
 }
 .item {
-	font-family: .PingFangSC-Regular;
+	font-family: Helvetica,Arial,sans-serif;
 	color: #4A4A4A;
 	font-size: 16px;
 	letter-spacing: 0.14px;
+}
+.item a {
+	color: #365899;
 }
 .notice {
 	color: #777;
