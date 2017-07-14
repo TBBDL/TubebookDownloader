@@ -84,7 +84,7 @@ header {
 	border-radius: 90px;
 	width: 140px;
 	height: 50px;
-	line-height: 50px;
+	line-height: 46px;
 	text-align: center;
 	cursor: pointer;
 	border: 1px solid #fff;
@@ -93,17 +93,18 @@ header {
 	margin-top: 30px;
 	margin-left: 20px;
 	margin-bottom: 40px;
+	letter-spacing: .5px;
 }
 .get-btn {
 	background-color: #fff;
-	font-family: Roboto-Medium;
-	font-size: 18px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 19px;
 	color: #FB392E;
 	letter-spacing: 0;
 }
 .login-btn {
-	font-family: PingFangSC-Medium;
-	font-size: 15px;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 19px;
 	color: #FFFFFF;
 	letter-spacing: 0.01px;
 }
