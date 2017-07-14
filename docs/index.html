@@ -2,8 +2,9 @@
 <!doctype html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta >
 <title>Tubebook YouTube Downloader </title>
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -12,84 +13,91 @@
 </head>
 
 <body>
-<header> 
-  <!-- Static navbar -->
-  <nav class="navbar navbar-inverse" role="navigation" id="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">
-          <ul>
-            <li>TUBEBOOK</li>
-            <li><i>Downloader</i></li>
-          </ul>
-        </a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <!--ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Entertainment</a></li>
-        <li><a href="#">Productivity</a></li>
-        <li><a href="#">Game</a></li>
-      </ul-->
-      </div><!--/.nav-collapse -->
-    </div><!--/.container-fluid -->
-  </nav>
-  <!----- stop navbar ------>
+<header class="clearfix">
+    <!-- Static navbar -->
+    <nav class="navbar" role="navigation" id="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png">
+                    <div style="display: inline-block;">
+                        <span>TUBEBOOK</span>
+                    </div>
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="clearfix menu">
+                    <li class="nav-li"><a href="about.html">Contact Us</a></li>
+                    <li class="nav-li selected"><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </header>
-<div class="container">
-  <ol class="breadcrumb">
-    <li class="active">TUBEBOOK Downloader</li>
-  </ol>
-  <div class="comment-content">
-          <div style='text-align:center'>
-            <p><strong>TUBEBOOK Downloader</strong></p>
-            <p>Download YouTube video to your android device like phone or Tablet </p>
-
-          </div>
-          <div style='clear:both'></div>
-
-
-          <div style='width:100%'>
-            <div style='text-align:center'>
-            <a href="#">
-            <img class="size-full wp-image-171" title="logo_final_64" src="img/tubebook-256.png" alt=""><br><br>
+<main class="index-main">
+    <div class="container main">
+        <div class="col-sm-5 hidden-xs">
+            <img src="img/Group 2@3x.png" class="index-img">
+        </div>
+        <div class="col-sm-7">
+            <div class="main-title">
+                <p>Download YouTube videos easily</p>
+                <p>Free & Fast</p>
+                <p>Millions users</p>
+            </div>
+<!--             <a class="login-btn">
+                Login
+            </a> -->
+            <a target="_blank" href="img/tubebook-latest.apk" class="get-btn">
+                Get it now!
             </a>
-          </div>
-          <div style='text-align:center'>
-            <p>Get Newest TUBEBOOK Downloader :</p>
-            <a target='_blank' href="img/tubebook-latest.apk" class="btn btn-default btn-lg ">Download</a>
-          </div>
-          <p style='color:grey;padding:20px'>
-<strong>NOTICE</strong>
-Tubebook is not on Google Play due to Google’s Policy which prohibits YouTube downloading apps for copyright concern. TUBEBOOK is safe, not virus or malware. We appreciate your trust. If there’s any questions or concerns, feel free to contact our staff: www.facebook.com/tubebookdownloader
-          </p>
+        </div>
+    </div>
+</main>
 
-          <div style='text-align:center'>
-              <script>(function(d, s, id) {
-                  var js, fjs = d.getElementsByTagName(s)[0];
-                  if (d.getElementById(id)) return;
-                  js = d.createElement(s); js.id = id;
-                  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=240696906043445";
-                  fjs.parentNode.insertBefore(js, fjs);
-                }(document, 'script', 'facebook-jssdk'));</script>
-              <div class="fb-comments" data-href="http://www.tubebook.net" data-numposts="5" data-width='400'></div>
-          </div>
+<div class="container">
+    <div class="col-sm-offset-6 col-sm-6">
+        <div class="row" style="margin-bottom: 20px;">
+            <div class="col-sm-6 item">
+                <a href="https://www.facebook.com/TubebookDownloader/" target="_blank"><img src="img/follow.png" width="100%"></a>
+            </div>
+            <div class="col-sm-6 item hidden-xs">
+                <img src="img/Page 1@3x.png" height="30px;"> HELP
+                <div>• <a href="https://twitter.com/tubedownloader2" target="_blank">Report an issue</a></div>
+                <div>• <a href="https://github.com/TBBDL/plugins" target="_blank">Contribute plugin</a></div>
+            </div>
 
-          <div id="fb-root"></div>
+            <div class="notice visible-xs">
+                <b>NOTICE</b> Tubebook is not on Google Play due to Google’s Policy which prohibits YouTube downloading apps for copyright concern.
+                <br ><br >
+                TUBEBOOK is safe, not virus or malware. We appreciate your trust. 
+                <br ><br >
+                Feel free to contact our staff: www.facebook.com/tubebookdownloader.
+            </div>
+        </div>
+    </div>
+        <div style='text-align:center'>
+        <script>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=240696906043445";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <div class="fb-comments" data-href="http://www.tubebook.net" data-numposts="5" data-width='400'></div>
+    </div>
 
-  </div>
+    <div id="fb-root"></div>
 </div>
-<!-- footer start  -->
-<div class="container-fluid">
-  <div class="footer">
-    <p class="muted credit">Copyright © 2017</p>
-  </div>
-</div>
+
 <!--   footer stop   -->
 <div style='display:none'>
 <script type="text/javascript">

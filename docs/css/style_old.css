@@ -1,0 +1,64 @@
+body{
+    background:#f4f6f7;
+}
+body, h1, h2, h3, h4, h5, h6{
+    font-family: "NotoSans CJK","寰蒋闆呴粦","Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#navigation {
+    font-weight: bold;
+    border-radius: 0px;
+    border: 0px none;
+    margin-bottom: 0px;
+}
+#navigation a {
+    color: #FFF;
+}
+#navigation a:hover{
+    color:#45bbe6;
+    display:block;
+    background:#000;
+}
+.navbar-brand {
+    padding: 12px 15px 6px;
+}
+.navbar-brand ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: outside none none;
+}
+.navbar-brand ul li {
+    line-height: 16px;
+}
+.navbar-brand ul li:last-child {
+    text-align: center;
+    font-size: 12px;
+}
+.comment-content td {
+    border-top: 1px solid #DDD;
+    padding: 26px 10px 26px 0px;
+}
+.breadcrumb {
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+.tw100 {
+    width: 100%;
+}
+.comment-content .btn {
+    background: none repeat scroll 0% 0% #CCC;
+    width: 274px;
+    border-radius: 0px;
+}
+.comment-content .btn:hover{
+    background:#45bbe6;
+    border:#45bbe6 solid 1px;
+}
+.comment-content td .ptow {
+    margin-top: 60px;
+}
+
+.footer {
+    padding: 40px 0px;
+    color: #999;
+    text-align: center;
+}
