@@ -79,34 +79,14 @@ header {
 .main {
 	padding-top: 100px;
 }
-.get-btn,
-.login-btn {
-	border-radius: 90px;
-	width: 140px;
-	height: 50px;
-	line-height: 46px;
-	text-align: center;
-	cursor: pointer;
-	border: 1px solid #fff;
-	display: inline-block;
-	float: right;
-	margin-top: 30px;
-	margin-left: 20px;
-	margin-bottom: 40px;
-	letter-spacing: .5px;
-}
 .get-btn {
-	background-color: #fff;
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 19px;
-	color: #FB392E;
-	letter-spacing: 0;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
-.login-btn {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 19px;
-	color: #FFFFFF;
-	letter-spacing: 0.01px;
+.get-btn img {
+	float: right;
+	min-width: 50%;
+	max-width: 70%;
 }
 .index-img {
 	width: 100%;
@@ -127,6 +107,17 @@ header {
 	color: #777;
 	margin-top: 20px;
 	line-height: 20px;
+}
+.fb-tw-box {
+	display: flex;
+	justify-content: center;
+    -webkit-align-items: center;
+	-ms-align-items: center;
+	-moz-align-items: center;
+}
+.fb-tw-box img {
+	width: 60px;
+	margin: 10px;
 }
 /*nav*/
 @media screen and (min-width: 768px) {
@@ -158,6 +149,15 @@ header {
 	}
 	.logo {
 		padding-left: 15px;
+	}
+	.get-btn img {
+		width: 85%;
+		max-width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.get-btn {
+		text-align: center;
 	}
 }
 
