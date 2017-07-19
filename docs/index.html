@@ -65,52 +65,50 @@
 </main>
 
 <div class="container">
-    <div class="col-sm-offset-6 col-sm-6">
-        <div class="row" style="margin-bottom: 20px;">
-            <div class="col-sm-6 item">
-                <div class="fb-tw-box">
-                    <a href="https://www.facebook.com/TubebookDownloader/" target="_blank">
-                        <img src="img/Facebook@3x.png">
-                    </a>
-                    <a href="https://twitter.com/tubedownloader2" target="_blank">
-                        <img src="img/Twitter@3x.png">
-                    </a>
-                </div> 
-            </div>
-            <div class="col-sm-6 item hidden-xs">
-                HELP
-                <div><a href="https://twitter.com/tubedownloader2" target="_blank">Report an issue</a></div>
-                <div><a href="https://github.com/TBBDL/plugins" target="_blank">Contribute plugin</a></div>
-            </div>
+    <div class="clearfix">
+        <div class="col-sm-offset-6 col-sm-6">
+            <div class="row" style="margin-bottom: 20px;">
+                <div class="col-sm-6 item">
+                    <div class="fb-tw-box">
+                        <a href="https://www.facebook.com/TubebookDownloader/" target="_blank">
+                            <img src="img/Facebook@3x.png">
+                        </a>
+                        <a href="https://twitter.com/tubedownloader2" target="_blank">
+                            <img src="img/Twitter@3x.png">
+                        </a>
+                    </div> 
+                </div>
+                <div class="col-sm-6 item hidden-xs">
+                    HELP
+                    <div><a href="https://twitter.com/tubedownloader2" target="_blank">Report an issue</a></div>
+                    <div><a href="https://github.com/TBBDL/plugins" target="_blank">Contribute plugin</a></div>
+                </div>
 
-            <div class="notice visible-xs">
-                <b>NOTICE</b> Tubebook is not on Google Play due to Google’s Policy which prohibits YouTube downloading apps for copyright concern.
-                <br ><br >
-                TUBEBOOK is safe, not virus or malware. We appreciate your trust. 
-                <br ><br >
-                Feel free to contact our staff: www.facebook.com/tubebookdownloader.
+                <div class="notice visible-xs">
+                    <b>NOTICE</b> Tubebook is not on Google Play due to Google’s Policy which prohibits YouTube downloading apps for copyright concern.
+                    <br ><br >
+                    TUBEBOOK is safe, not virus or malware. We appreciate your trust. Feel free to contact our staff with facebook or twitter.
+                </div>
             </div>
         </div>
     </div>
-        <div style='text-align:center'>
-        <script>
-            (function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                    js = d.createElement(s); js.id = id;
-                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=240696906043445";
-                    fjs.parentNode.insertBefore(js, fjs);
-                }(document, 'script', 'facebook-jssdk'));
-        </script>
+    <div class="fb-box-box" >
         <div class="fb-comments" data-href="http://www.tubebook.net" data-numposts="5" data-width='400'></div>
     </div>
-
     <div id="fb-root"></div>
 </div>
 
 <!--   footer stop   -->
 <div style='display:none'>
 <script type="text/javascript">
+(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=240696906043445";
+        fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-34797399-1']);
   _gaq.push(['_trackPageview']);

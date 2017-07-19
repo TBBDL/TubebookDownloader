@@ -85,8 +85,8 @@ header {
 }
 .get-btn img {
 	float: right;
-	min-width: 50%;
-	max-width: 70%;
+	min-width: 40%;
+	max-width: 250px;
 }
 .index-img {
 	width: 100%;
@@ -119,6 +119,9 @@ header {
 	width: 60px;
 	margin: 10px;
 }
+.fb-box-box {
+	margin-top: 60px;
+}
 /*nav*/
 @media screen and (min-width: 768px) {
 	.nav-li {
@@ -135,8 +138,9 @@ header {
 	.selected:after {
 		content: '●';
 		position: absolute;
+		font-size: 10px;
 		top: 16px;
-		right: 18px;
+		left: 45%;
 		color: #E85549;
 	}
 }
@@ -152,7 +156,7 @@ header {
 	}
 	.get-btn img {
 		width: 85%;
-		max-width: 100%;
+		max-width: 300px;
 		float: none;
 		text-align: center;
 	}
