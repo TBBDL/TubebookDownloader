@@ -121,6 +121,7 @@ header {
 }
 .fb-box-box {
 	margin-top: 60px;
+	text-align: center;
 }
 /*nav*/
 @media screen and (min-width: 768px) {
