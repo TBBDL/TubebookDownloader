@@ -1,0 +1,190 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.clearfix { 
+    *zoom: 1; 
+} 
+.clearfix:before, 
+.clearfix:after { 
+    display: table; 
+    line-height: 0; 
+    content: ""; 
+} 
+.clearfix:after { 
+    clear: both; 
+} 
+a {
+	text-decoration-line: none;
+}
+body {
+	font-family: 'Roboto', sans-serif , Arial,'微软雅黑';
+}
+
+header {
+	height: 70px;
+	border-bottom: 3px solid #FB392E; 
+	}
+.header {
+	line-height: 55px;
+}
+
+.header img {
+	vertical-align: middle;
+	height: 40px;
+	margin-top: 5px;
+}
+.header b {
+	/*font-family: Roboto-Bold;*/
+	font-size: 20px;
+	color: #4A4A4A;
+	margin-left: 8px;
+	position: relative;
+}
+.header b:after {
+	content: 'Downloader';
+	font-size: 13px;
+	position: absolute;
+	top: 2px;
+	left: 16px;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.main {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.main h4 {
+	/*font-family: Roboto-Medium;*/
+	font-size: 16px;
+	color: #797576;
+	letter-spacing: 0.01px;
+	margin-bottom: 10px;
+}
+.main a {
+	color: #428bca;
+}
+.app-ul li{
+	list-style: none;
+	border-top: 1px solid #E3E3E3;
+	min-height: 88px;
+	padding: 22px 0;
+
+	/*font-family: Roboto-Medium;*/
+	font-size: 14px;
+	color: #000000;
+	letter-spacing: 0.01px;
+	line-height: 22px;
+}
+.app-ul li a {
+	font-size: 14px;
+	color: #4A90E2;
+	letter-spacing: 0.01px;
+	line-height: 22px;
+	text-decoration-line: none;
+}
+.app-detail-box,
+.app-logo {
+	float: left;
+}
+						
+.app-text {
+	min-height: 66px;
+}
+
+.app-ol {
+	margin-bottom: 30px;
+}
+.install-title {
+	font-size: 14px;
+	color: #666;
+	letter-spacing: 0.01px;
+	line-height: 30px;
+	font-weight: 600;
+}
+.app-ol a {
+	display: inline-block;
+	width: 250px;
+	background: #ccc;
+	padding: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.button, .button:visited {
+	background: #428bca !important;
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #fff;
+	text-decoration: none;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	position: relative;
+	cursor: pointer;
+	opacity: 0.9;
+	font-size: 16px;
+}
+.button:hover {
+	opacity: 1;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 25px;
+	/*font-family: .PingFangSC-Regular;*/
+	font-size: 15px;
+	color: #797576;
+	letter-spacing: 0.01px;
+}
+
+@media screen and (min-width: 768px) {
+	.contain {
+		width: 737px;
+		margin: 0 auto;
+	}
+	.app-detail-box {
+		width: 596px;
+	}
+	.app-logo {
+		width: 141px;
+		height: 88px;
+		line-height: 88px;
+	}
+	.app-logo img {
+		vertical-align: middle;
+		width: 57px;
+		margin-left: 42px;
+	}
+	.view-detail {
+		text-align: right;
+		margin-right: 15px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.contain {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.app-detail-box {
+		width: 70%;
+	}
+	.app-logo {
+		width: 30%;
+	}
+	.app-logo img {
+		width: 60%;
+		max-width: 70px;
+		margin-left: 20%;
+	}
+	footer {
+		display: none;
+	}
+}
+
