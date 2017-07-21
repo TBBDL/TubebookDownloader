@@ -15,7 +15,7 @@
     clear: both; 
 } 
 a {
-	text-decoration-line: none;
+	text-decoration: none;
 }
 body {
 	font-family: 'Roboto', sans-serif , Arial,'微软雅黑';
@@ -82,7 +82,7 @@ header {
 	color: #4A90E2;
 	letter-spacing: 0.01px;
 	line-height: 22px;
-	text-decoration-line: none;
+	text-decoration: none;
 }
 .app-detail-box,
 .app-logo {

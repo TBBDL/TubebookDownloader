@@ -1,5 +1,5 @@
-body, h1, h2, h3, h4, h5, h6{
-    font-family: Roboto-Bold;
+body {
+    font-family: 'Roboto', sans-serif , Arial,'微软雅黑';
 }
 body {
 	background-color: #eee;	
@@ -11,53 +11,49 @@ body {
 ul {
 	list-style: none;
 }
+a {
+	text-decoration: none;
+}
 header {
+	height: 70px;
 	background-color: #fff;
 }
-/*.navbar-toggle {
-	margin-top: 20px;
-	border: 1px solid #bbb;
-}
-.icon-bar {
-	background-color: #bbb;
-}*/
-#navigation {
-	height: 80px;
-	line-height: 70px;
-	margin-bottom: 0;
-}
-.logo img {
-	height: 40px;
-}
-.logo span {
-	font-size: 20px;
-	color: #4A4A4A;
-	letter-spacing: 0.01px;
-	margin-left: 10px;
-	font-weight: 600;
+.header {
+	line-height: 55px;
 	position: relative;
 }
-.logo span:after {
+
+.header img {
+	vertical-align: middle;
+	height: 40px;
+	margin-top: 5px;
+}
+.header b {
+	/*font-family: Roboto-Bold;*/
+	font-size: 20px;
+	color: #4A4A4A;
+	margin-left: 8px;
+	position: relative;
+}
+.header b:after {
 	content: 'Downloader';
 	font-size: 13px;
 	position: absolute;
-	top: -4px;
+	top: 2px;
 	left: 16px;
-	font-weight: 500;
+	font-weight: 600;
 	font-style: italic;
 }
-.logo:hover {
-	text-decoration: none;
-}
+
 .about-h3 {
-	font-family: ALKATIP;
+	/*font-family: ALKATIP;*/
 	font-size: 28px;
 	color: #4A4A4A;
 	letter-spacing: 0.24px;
 	margin: 70px 0 30px 0;
 }
 .about-content {
-	font-family: PingFangSC-Light;
+	/*font-family: PingFangSC-Light;*/
 	font-size: 15px;
 	color: #4A4A4A;
 	letter-spacing: 0.31px;
@@ -69,7 +65,7 @@ header {
 	min-height: 400px;
 }
 .main-title p{
-	font-family: Roboto-Bold;
+	/*font-family: Roboto-Bold;*/
 	font-size: 28px;
 	color: #FFFFFF;
 	letter-spacing: 0.5px;
@@ -95,7 +91,7 @@ header {
 	margin-top: 50px;
 }
 .item {
-	font-family: Helvetica,Arial,sans-serif;
+	/*font-family: Helvetica,Arial,sans-serif;*/
 	color: #4A4A4A;
 	font-size: 16px;
 	letter-spacing: 0.14px;
@@ -125,13 +121,19 @@ header {
 }
 /*nav*/
 @media screen and (min-width: 768px) {
+	.menu {
+		position: absolute;
+		right: 0;
+		top: 0;
+		line-height: 60px;
+	}
 	.nav-li {
-		margin-left: 8%;
-		float: right;
+		display: inline-block;
 		position: relative;
+		margin-right: 30px;
 	}
 	.nav-li a{
-		font-family: PingFangSC-Regular;
+		/*font-family: PingFangSC-Regular;*/
 		font-size: 15px;
 		color: #E85549;
 		letter-spacing: 0.01px;
@@ -146,12 +148,6 @@ header {
 	}
 }
 @media screen and (max-width: 767px) {
-	.menu {
-		display: none;
-	}
-	.main {
-		padding-top: 50px;
-	}
 	.logo {
 		padding-left: 15px;
 	}
