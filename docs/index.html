@@ -76,6 +76,26 @@
             </div>
         </div>
     </div>
+    <div style='text-align:center'>
+<div id="smt-130295233" style="padding: 0px"></div>
+<script type="text/javascript" src="https://soma-assets.smaato.net/js/smaatoAdTag.js"></script>
+<script>
+    function callBackForSmaato(status){
+        if(status == "SUCCESS"){
+            console.log("callBack is being called with status : " + status);
+        } else if (status == "ERROR"){
+            console.log("callBack is being called with status : " + status);
+        }
+    }; 
+    SomaJS.loadAd({
+        adDivId : "smt-130295233",
+        publisherId: 1100010539,
+        adSpaceId: 130295233,
+        format: "all",formatstrict: true,dimension: "xxlarge",width: 320,height: 50,
+    sync: false,},callBackForSmaato);
+</script>
+
+    </div>
     <div class="fb-box-box" >
         <div class="fb-comments" data-href="http://www.tubebook.net" data-numposts="5" data-width='400'></div>
     </div>
