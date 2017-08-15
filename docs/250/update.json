@@ -28,7 +28,7 @@
       "desc": "Youku downloader plugin"
     },
     {
-      "src": "http://m.youku.com",
+      "src": "https://vimeo.com/",
       "ver": 1,
       "plugin": "vimeo.py",
       "link": "https://dn-coding-net-production-file.qbox.me/a0dc38c3-72c5-4e1e-99bd-f7917e8ac21b.py?download/vimeo.py&e=1502789143&token=goE9CtaiT5YaIP6ZQ1nAafd_C1Z_H2gVP8AwuC-5:I8y5NyyPZTekEdJmaW9NT8JHe5A=",
