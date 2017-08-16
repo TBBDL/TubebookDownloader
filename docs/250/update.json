@@ -26,6 +26,16 @@
       "title": "Youku",
       "ver_desc": "fix download issue",
       "desc": "Youku downloader plugin"
+    },
+    {
+      "src": "https://vimeo.com/",
+      "ver": 1,
+      "plugin": "vimeo.py",
+      "link": "http://om4nwud6z.bkt.clouddn.com/vimeo.py?attname=&e=1502853409&token=1z9s_GAMHFa23N_E15oSlfgtA3gDLDMl5qyo9MmT:NZ14x0-cnBOBUnw9VMt_XRvHzVg",
+      "dst": "user/vimeo.py",
+      "title": "Vimeo",
+      "ver_desc": "fix download issue",
+      "desc": "Vimeo downloader plugin"
     }
   ]
 }
