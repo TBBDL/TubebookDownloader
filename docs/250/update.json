@@ -1,10 +1,10 @@
 {
   "app": {
     "link": "http://www.tubebook.net",
-    "ver": 307,
+    "ver": 308,
     "ver_plugin": "0",
     "ver_desc": "Newest version you should upgrade",
-    "ver_name": "3.0.7"
+    "ver_name": "3.0.8"
   },
   "plugins": [
     {
