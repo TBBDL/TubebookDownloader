@@ -4,6 +4,6 @@
     "data":{
         "versionCode":1000,
         "upgradeContent":"A new version of app is detected. New features:1. Support the video download function of YouTube in multiple formats.2. Simple and friendly interactive interface.3. Customized downloader.Version number: v3.1.0Release date: 2021-9-1",
-        "url":"https://tbbdl.github.io/TubebookDownloader/"
+        "url":"https://tubebook.app/"
     }
 }
